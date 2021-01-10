@@ -41,7 +41,7 @@ for build and test. Resulting jar will be located in "target" directory.
     foo@bar:~/HW1-Haloop$ jar ./target/HW1-Haloop-1.0-SNAPSHOT-jar-with-dependencies.jar <input dir in hdfs> <output dir in hdfs>  
     ```  
 
-# Генератор данных   
+# Data generation    
 1. Download fakelog directory.  
 2. Install cpan:  
     ```console

@@ -36,7 +36,7 @@ for build and testing. Resulting jar will be placed in "target" directory.
     <jar-file> <system configuration file> <input file> <output directory> <time interval>
     ```
 
-# Генератор данных 
+# Data generation
 For testing convenience synthetic input data generator is provided.  
 
 1. Download FakeMetricGen.  
@@ -45,7 +45,7 @@ For testing convenience synthetic input data generator is provided.
     foo@bar:~/fakelog$ perl ./fakeMetric.pl <number of lines> <invalid lines percentage> <output directory>  
     ```
  
-## Текущий статус
+## Lab status
 |Lab requirement  |Status   |
 |---|---|
 |2.	Program which aggregate raw metrics into selected scale.  Data input format: metricId, timestamp, value  Data output format: metricId, timestamp, scale, value  |  + |
